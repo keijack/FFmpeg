@@ -59,6 +59,13 @@
 #define STREAM_TYPE_VIDEO_CAVS      0x42
 
 #define STREAM_TYPE_AUDIO_AC3       0x81
+/*add gb28181 audio codec - lihaiping1603*/
+#define STREAM_TYPE_AUDIO_G711      0x90
+#define STREAM_TYPE_AUDIO_G722      0x92
+#define STREAM_TYPE_AUDIO_G723      0x93
+#define STREAM_TYPE_AUDIO_G729      0x99
+
+
 
 static const int lpcm_freq_tab[4] = { 48000, 96000, 44100, 32000 };
 
